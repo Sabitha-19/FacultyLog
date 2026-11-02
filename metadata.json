@@ -1,0 +1,6 @@
+{
+  "name": "FacultyLog",
+  "description": "Smart Attendance. Simplified Academics. Premium academic management SaaS platform for student attendance, subject hours, weekly timetables, and academic reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

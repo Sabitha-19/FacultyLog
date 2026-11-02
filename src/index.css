@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* FacultyLog Earthy Pottery & Ceramic Palette */
+    --terracotta: #A7674D;
+    --warm-ivory: #F1F0EB;
+    --soft-ceramic-beige: #E4E0D5;
+    --olive-green: #6C6B50;
+    --earthy-taupe: #9B8A79;
+    --deep-espresso: #1E1E16;
+
+    /* Functional Mappings */
+    --page-bg: #F1F0EB;
+    --card-bg: #E4E0D5;
+    --card-surface: #F1F0EB;
+    --text-primary: #1E1E16;
+    --text-secondary: #9B8A79;
+    --border-color: #9B8A79;
+    --btn-primary-bg: #A7674D;
+    --btn-primary-text: #F1F0EB;
+    --btn-secondary-bg: #6C6B50;
+    --btn-secondary-text: #F1F0EB;
+
+    /* Attendance Status Colors */
+    --status-present-bg: #E4E0D5;
+    --status-present-text: #6C6B50;
+    --status-present-border: #6C6B50;
+
+    --status-absent-bg: #F5DDD4;
+    --status-absent-text: #A7674D;
+    --status-absent-border: #A7674D;
+
+    --status-od-bg: #DFDBD0;
+    --status-od-text: #6C6B50;
+    --status-od-border: #9B8A79;
+
+    --status-leave-bg: #E4E0D5;
+    --status-leave-text: #9B8A79;
+    --status-leave-border: #9B8A79;
+  }
+
+  body {
+    background-color: #F1F0EB;
+    color: #1E1E16;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Important headings in Playfair Display */
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #1E1E16;
+    letter-spacing: -0.015em;
+  }
+
+  .font-body {
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .font-mono-numbers {
+    font-family: 'DM Sans', sans-serif;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum';
+  }
+}
+
+/* Custom scrollbars in earthy ceramic palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F0EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #9B8A79;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6C6B50;
+}
